@@ -1,6 +1,6 @@
 const emojiButton = document.getElementById("emoji-button");
 let hasPressed = false;
-const emojis = ["😀", "😎", "💖", "🎉", "🔥", "🍕", "🌟", "🦄"];
+const emojis = ["🧑‍🍳", "🧑‍🎓", "🧑🏻‍💻", "🏃🏻‍➡️", "🐔", "🍌", "🧀", "🏀", "🎤", "🗽", "🧧", "❤️‍🔥", "🀄️"];
 
 const toAngry = () => {
     emojiButton.style.backgroundColor = "#FF383B";

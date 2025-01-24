@@ -43,10 +43,10 @@ h3 {
 
 #image-column {
     /* position: relative; */
-    padding-top: 300px;
+    /* padding-top: px; */
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    gap: 24px;
 }
 
 .image {
@@ -56,9 +56,9 @@ h3 {
 
 /* Button CSS */
 #emoji-button {
-    position: absolute;
+    /* position: absolute; */
     right: 84px;
-    width: 500px;
+    width: 450px;
     height: 212px;
     border: 8px solid black;
     border-radius: 40px;

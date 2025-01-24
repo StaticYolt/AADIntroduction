@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Inter", serif;
+    margin: 0;
+    
+}
+
+#emoji-button {
+    width: 356px;
+    height: 151px;
+    border: 6px solid black;
+    border-radius: 25px;
+    font-size: 56px;
+    background-color: #FF383B;
+    cursor: pointer;    
+}
+
+.emoji {
+    position: absolute;
+    font-size: 2rem;
+    pointer-events: none; 
+    animation: fall 3s linear forwards;
+}
+@keyframes fall {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+}
